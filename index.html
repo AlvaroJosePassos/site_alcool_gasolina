@@ -13,16 +13,21 @@
 <body>
     <h1>Teste de Orçamento</h1>
     <hr />
-    <h3>Preço da Gasolina(R$): <input id="input_gasolina" value="10" placeholder="digite o preço..." type="number"
-            min="1" /></h3>
-    <h3>Preço do Alcool(R$): <input id="input_alcool" value="7" placeholder="digite o preço..." type="number" min="1" />
+    <h3>Preço da Gasolina(R$): <input class='valores' id="input_gasolina" placeholder="digite o preço..." type="number"
+            min="1" required />
     </h3>
-    <h3>Performance do seu carro com gasolina(km/L): <input id="input_performance" value="10"
-            placeholder="digite a performance..." type="number" min="1" /></h3>
-    <h3>Dinheiro disponivel(R$): <input id="input_dinheiro" value="1000"
-            placeholder="digite quanto dinheiro você tem..." type="number" min="1" /></h3>
-    <h3>A distancia(km): <input id="input_distancia" placeholder="digite a distancia ate o local..." value="100"
-            type="number" min="1" /></h3>
+    <h3>Preço do Alcool(R$): <input class='valores' id="input_alcool" placeholder="digite o preço..." type="number"
+            min="1" required />
+    </h3>
+    <h3>Performance do seu carro com gasolina(km/L): <input class='valores' id="input_performance"
+            placeholder="digite a performance..." type="number" min="1" required />
+    </h3>
+    <h3>Dinheiro disponivel(R$): <input class='valores' id="input_dinheiro"
+            placeholder="digite quanto dinheiro você tem..." type="number" min="1" required />
+    </h3>
+    <h3>A distancia(km): <input class='valores' id="input_distancia" placeholder="digite a distancia ate o local..."
+            type="number" min="1" required />
+    </h3>
     <h3 id="botao"><button id="btn_calcular" value="Enviar">Calcular</button></h3>
     <div id="container">
         <div id="esquerda">

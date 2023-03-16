@@ -9,6 +9,10 @@
   width: 45%;
 }
 
+#botao {
+  margin-left: 46.5%;
+}
+
 /* Estilo para telas pequenas (Celulares) */
 @media screen and (max-width: 767px) {
   #container {
@@ -18,7 +22,11 @@
   #esquerda,
   #direita {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
+  }
+
+  #botao {
+    margin-left: 45%;
   }
 }
 
@@ -58,10 +66,6 @@ input {
   box-sizing: border-box;
   border: 1px solid #dcdde1;
   border-radius: 5px;
-}
-
-#botao {
-  margin-left: 46.52%;
 }
 
 button {

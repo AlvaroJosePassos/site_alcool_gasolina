@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/estilo.css" />
+    <title>Alcool Gasolina</title>
+    <script src="assets/js/comportamento.js" defer></script>
+</head>
+
+<body>
+    <h1>Teste de Orçamento</h1>
+    <hr />
+    <h3>Preço da Gasolina(R$): <input id="input_gasolina" value="10" placeholder="digite o preço..." type="number"
+            min="1" /></h3>
+    <h3>Preço do Alcool(R$): <input id="input_alcool" value="7" placeholder="digite o preço..." type="number" min="1" />
+    </h3>
+    <h3>Performance do seu carro com gasolina(km/L): <input id="input_performance" value="10"
+            placeholder="digite a performance..." type="number" min="1" /></h3>
+    <h3>Dinheiro disponivel(R$): <input id="input_dinheiro" value="1000"
+            placeholder="digite quanto dinheiro você tem..." type="number" min="1" /></h3>
+    <h3>A distancia(km): <input id="input_distancia" placeholder="digite a distancia ate o local..." value="100"
+            type="number" min="1" /></h3>
+    <h3><button id="btn_calcular" value="Enviar">Calcular</button></h3>
+    <div id="container">
+        <div id="esquerda">
+            <p id="gasolina">
+            <h2 id="nome_gasolina"></h2>
+            <h2 id="quant_g"></h2>
+            <h2 id="preco_g"></h2>
+            <h2 id="suficiente_g"></h2>
+            <h2 id="resta_g"></h2>
+            </p>
+        </div>
+        <div id="direita">
+            <p id="alcool">
+            <h2 id="nome_alcool"></h2>
+            <h2 id="quant_a"></h2>
+            <h2 id="preco_a"></h2>
+            <h2 id="suficiente_a"></h2>
+            <h2 id="resta_a"></h2>
+            </p>
+        </div>
+    </div>
+    <h1 id="dica"></h1>
+</body>
+
+</html>

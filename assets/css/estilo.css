@@ -32,16 +32,19 @@ h1 {
   font-size: 36px;
   text-align: center;
   margin: 20px 0;
+  color: #1e272e; /* preto azulado para transmitir estabilidade e confiança */
 }
 
 h2 {
   font-size: 18px;
   margin: 10px 0;
+  color: #57606f; /* cinza azulado para transmitir neutralidade e equilíbrio */
 }
 
 h3 {
   font-size: 16px;
   margin: 10px 0;
+  color: #57606f; /* cinza azulado para transmitir neutralidade e equilíbrio */
 }
 
 input {
@@ -50,10 +53,12 @@ input {
   margin: 5px 0;
   width: 100%;
   box-sizing: border-box;
+  border: 1px solid #dcdde1; /* cinza claro para transmitir estabilidade e confiança */
+  border-radius: 5px;
 }
 
 button {
-  background-color: #4CAF50;
+  background-color: #4CAF50; /* verde para transmitir sucesso e positividade */
   color: white;
   font-size: 16px;
   padding: 10px 20px;
@@ -63,7 +68,7 @@ button {
 }
 
 button:hover {
-  background-color: #3e8e41;
+  background-color: #3e8e41; /* verde mais escuro para transmitir energia e vitalidade */
 }
 
 #dica {
@@ -71,10 +76,11 @@ button:hover {
   font-weight: bold;
   text-align: center;
   margin: 40px 0;
+  color: #2f3542; /* azul escuro para transmitir confiança e seriedade */
 }
 
 #gasolina, #alcool {
-  background-color: #f2f2f2;
+  background-color: #f2f2f2; /* cinza claro para transmitir estabilidade e confiança */
   padding: 20px;
   border-radius: 10px;
 }
@@ -82,9 +88,11 @@ button:hover {
 #nome_gasolina, #nome_alcool {
   font-size: 24px;
   margin: 0;
+  color: #57606f; /* cinza azulado para transmitir neutralidade e equilíbrio */
 }
 
 #quant_g, #preco_g, #suficiente_g, #resta_g,
 #quant_a, #preco_a, #suficiente_a, #resta_a {
   margin: 5px 0;
+  color: #2f3542; /* azul escuro para transmitir confiança e seriedade */
 }
